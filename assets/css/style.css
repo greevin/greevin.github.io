@@ -10,7 +10,7 @@
 }
 @media (min-width: 768px) {
   .jumbotron {
-    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-top: calc(var(--jumbotron-padding-y) * 3);
     padding-bottom: calc(var(--jumbotron-padding-y) * 2);
   }
 }
@@ -37,3 +37,15 @@ footer p {
 }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.card-img-top {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.card-img-top:hover {
+  opacity: .7;
+}
