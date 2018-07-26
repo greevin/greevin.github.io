@@ -49,3 +49,24 @@ footer p {
 .card-img-top:hover {
   opacity: .7;
 }
+
+.progress {
+  /* margin-top: 1rem; */
+  height: 20px;
+}
+
+.progress .bg-html-color {
+    background-color: #F66334!important;
+}
+
+.progress .bg-css-color {
+    background-color: #0EA9DC!important;
+}
+
+.progress .bg-js-color {
+    background-color: #D8BB09!important;
+}
+
+.progress .bg-php-color {
+    background-color: #7878A7!important;
+}
