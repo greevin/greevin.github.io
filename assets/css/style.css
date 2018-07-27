@@ -70,3 +70,10 @@ footer p {
 .progress .bg-php-color {
     background-color: #7878A7!important;
 }
+
+.circle-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 0px 0px 10px rgba(200,207,213,0.9);
+}
