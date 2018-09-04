@@ -77,3 +77,28 @@ footer p {
   height: 200px;
   box-shadow: 0px 0px 0px 10px rgba(200,207,213,0.9);
 }
+
+.badge-bootstrap {
+  color: #fff;
+  background-color: #563d7c;
+}
+
+.badge-wordpress {
+  color: #fff;
+  background-color: #0073aa;
+}
+
+.badge-mapbox {
+  color: #fff;
+  background-color: #4264fb;
+}
+
+.badge-vuejs {
+  color: #fff;
+  background-color: #4fc08d;
+}
+
+.badge-laravel {
+  color: #fff;
+  background-color: #f4645f;
+}
