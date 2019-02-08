@@ -30,6 +30,20 @@
   max-width: 40rem;
 }
 
+a {
+  color: #000000;
+  -o-transition:color .5s ease-out, background 1s ease-in;
+  -ms-transition:color .5s ease-out, background 1s ease-in;
+  -moz-transition:color .5s ease-out, background 1s ease-in;
+  -webkit-transition:color .5s ease-out, background 1s ease-in;
+  /* ...and now override with proper CSS property */
+  transition:color .5s ease-out, background 1s ease-in;
+}
+
+a:hover {
+  color: #7f7f7f;
+}
+
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -104,4 +118,14 @@ footer p {
 .badge-laravel {
   color: #fff;
   background-color: #f4645f;
+}
+
+.badge-ojs {
+  color: #fff;
+  background-color: #000000;
+}
+
+.badge-css {
+  color: #fff;
+  background-color: #0EA9DC;
 }
